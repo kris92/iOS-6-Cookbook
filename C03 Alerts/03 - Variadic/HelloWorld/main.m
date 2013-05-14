@@ -28,7 +28,7 @@
 
 - (void) alert: (id) sender
 {
-    [NotificationAlert say:@"Hello %@", @"world"];
+    [NotificationAlert say:@"Hello %@", @"world !"];
 }
 
 - (void) loadView
