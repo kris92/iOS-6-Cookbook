@@ -16,7 +16,7 @@
     id statement = [[NSString alloc] initWithFormat:formatstring arguments:arglist];
     va_end(arglist);
     
-    UIAlertView *av = [[UIAlertView alloc] initWithTitle:statement message:nil delegate:nil cancelButtonTitle:@"Okay" otherButtonTitles:nil];
+    UIAlertView *av = [[UIAlertView alloc] initWithTitle:statement message:nil delegate:nil cancelButtonTitle:@"Okay !" otherButtonTitles:nil];
     [av show];
 }
 @end
